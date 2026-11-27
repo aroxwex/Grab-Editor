@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>GrabEditor</AssemblyName>
+    <RootNamespace>GrabEditor</RootNamespace>
+    <Product>Grab Editor</Product>
+    <Version>0.1.0</Version>
+    <Authors>aroxwex</Authors>
+    <Company>aroxwex</Company>
+    <Description>Grab Editor - a simple, fast video editor.</Description>
+    <Copyright>Copyright (c) 2026 aroxwex</Copyright>
+    <RepositoryUrl>https://github.com/aroxwex/Grab-Editor</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <DebugType>none</DebugType>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\logo.png" />
+  </ItemGroup>
+
+</Project>
